@@ -1,17 +1,17 @@
 import React from 'react';
-export const Nav00DataSource = {
-  wrapper: { className: 'header0 home-page-wrapper' },
-  page: { className: 'home-page' },
+export const Nav30DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper' },
+  page: { className: 'home-page k744l5ka1v-editor_css' },
   logo: {
-    className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    className: 'header3-logo k72x5yplx4-editor_css',
+    children: 'https://s2.ax1x.com/2020/02/26/3UacNQ.png',
   },
   Menu: {
-    className: 'header0-menu',
+    className: 'header3-menu',
     children: [
       {
         name: 'item0',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
           children: [
@@ -22,6 +22,7 @@ export const Nav00DataSource = {
                 </>
               ),
               name: 'text',
+              className: 'k72y4483eu-editor_css',
             },
           ],
         },
@@ -80,7 +81,7 @@ export const Nav00DataSource = {
       },
       {
         name: 'item1',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
           children: [
@@ -97,7 +98,7 @@ export const Nav00DataSource = {
       },
       {
         name: 'item2',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
           children: [
@@ -114,7 +115,7 @@ export const Nav00DataSource = {
       },
       {
         name: 'item3',
-        className: 'header0-item',
+        className: 'header3-item',
         children: {
           href: '#',
           children: [
@@ -131,43 +132,37 @@ export const Nav00DataSource = {
       },
     ],
   },
-  mobileMenu: { className: 'header0-mobile-menu' },
+  mobileMenu: { className: 'header3-mobile-menu' },
 };
-export const Banner30DataSource = {
-  wrapper: { className: 'banner3' },
-  textWrapper: {
-    className: 'banner3-text-wrapper k6yj8mtio6g-editor_css',
-    children: [
-      {
-        name: 'slogan',
-        className: 'banner3-slogan',
-        children: '上海研发中心公共管理平台',
-        texty: true,
-      },
-      {
-        name: 'name',
-        className: 'banner3-name',
-        children: (
-          <>
-            <p>追求优秀的资源共享与极致用户体验</p>
-          </>
-        ),
-      },
-      {
-        name: 'time',
-        className: 'banner3-time',
-        children: (
-          <>
-            <p>UED / 界面</p>
-          </>
-        ),
-      },
-    ],
+export const Banner00DataSource = {
+  wrapper: { className: 'banner0 k746si8291a-editor_css' },
+  textWrapper: { className: 'banner0-text-wrapper k746vp9ozap-editor_css' },
+  title: {
+    className: 'banner0-title k746sekcb0s-editor_css',
+    children: (
+      <>
+        <p>上海研发中心资源共享平台</p>
+      </>
+    ),
+  },
+  content: {
+    className: 'banner0-content k746x9ol57b-editor_css',
+    children: (
+      <>
+        <p>汇集优质的资源打造高效开发环境</p>
+      </>
+    ),
+  },
+  button: {
+    className: 'banner0-button k746xs9ysa7-editor_css',
+    children: 'Learn More',
   },
 };
 export const Content30DataSource = {
-  wrapper: { className: 'home-page-wrapper content3-wrapper' },
-  page: { className: 'home-page content3 k6yjqcyo59-editor_css' },
+  wrapper: {
+    className: 'home-page-wrapper content3-wrapper k730a3zx8ob-editor_css',
+  },
+  page: { className: 'home-page content3 k72y4szewuq-editor_css' },
   OverPack: { playScale: 0.3 },
   titleWrapper: {
     className: 'title-wrapper',
@@ -176,17 +171,17 @@ export const Content30DataSource = {
         name: 'title',
         children: (
           <>
-            <p>优质实用的资源共享</p>
+            <p>优质的共享资源</p>
           </>
         ),
-        className: 'title-h1',
+        className: 'title-h1 k72plis16ml-editor_css',
       },
       {
         name: 'content',
-        className: 'title-content k6ynh157yeq-editor_css',
+        className: 'title-content k72xlyy5be-editor_css',
         children: (
           <>
-            <p>基于上研实战项目</p>
+            <p>基于烽火实战开发项目资源</p>
           </>
         ),
       },
@@ -202,50 +197,58 @@ export const Content30DataSource = {
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
+            className: 'content3-icon k72y54wccpj-editor_css',
+            children: 'https://s2.ax1x.com/2020/02/26/3UsHLn.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content3-text k72yk8jdn7n-editor_css' },
           title: {
             className: 'content3-title',
             children: (
               <>
-                <p>UED资源展示</p>
+                <p>UED设计资源</p>
               </>
             ),
           },
           content: {
             className: 'content3-content',
-            children:
-              '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
+            children: (
+              <>
+                <p>
+                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                </p>
+              </>
+            ),
           },
         },
       },
       {
         name: 'block1',
-        className: 'content3-block',
+        className: 'content3-block k733ccr36bi-editor_css',
         md: 8,
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+            className: 'content3-icon k72yiuk47-editor_css',
+            children: 'https://s2.ax1x.com/2020/02/26/3Ushi8.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content3-text k72yms1bnat-editor_css' },
           title: {
             className: 'content3-title',
             children: (
               <>
-                <p>界面资源</p>
+                <p>界面开发资源</p>
               </>
             ),
           },
           content: {
             className: 'content3-content',
-            children:
-              '按金融企业安全要求打造的完整云上安全体系，全方位保障金融应用及数据安全。',
+            children: (
+              <>
+                <p>
+                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                </p>
+              </>
+            ),
           },
         },
       },
@@ -256,23 +259,27 @@ export const Content30DataSource = {
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+            className: 'content3-icon k72ylh1jmeu-editor_css',
+            children: 'https://s2.ax1x.com/2020/02/26/3UsIzQ.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content3-text k72ylvhc5r9-editor_css' },
           title: {
             className: 'content3-title',
             children: (
               <>
-                <p>后台资源</p>
+                <p>后台开发资源</p>
               </>
             ),
           },
           content: {
             className: 'content3-content',
-            children:
-              '分布式云环境集中监控，统一资源及应用状态视图，智能分析及故障定位。',
+            children: (
+              <>
+                <p>
+                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                </p>
+              </>
+            ),
           },
         },
       },
@@ -283,11 +290,10 @@ export const Content30DataSource = {
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+            className: 'content3-icon k72ynqcov26-editor_css',
+            children: 'https://s2.ax1x.com/2020/02/26/3Us5Rg.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content3-text k72ynzi0jo-editor_css' },
           title: {
             className: 'content3-title',
             children: (
@@ -298,8 +304,13 @@ export const Content30DataSource = {
           },
           content: {
             className: 'content3-content',
-            children:
-              '一站式移动金融APP开发及全面监控；丰富可用组件，动态发布和故障热修复。',
+            children: (
+              <>
+                <p>
+                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                </p>
+              </>
+            ),
           },
         },
       },
@@ -310,23 +321,27 @@ export const Content30DataSource = {
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
+            className: 'content3-icon k72yim0x1k-editor_css',
+            children: 'https://s2.ax1x.com/2020/02/26/3UsqZq.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content3-text k72ykokvzf-editor_css' },
           title: {
             className: 'content3-title',
             children: (
               <>
-                <p>PPT 模板资源</p>
+                <p>PPT模板资源</p>
               </>
             ),
           },
           content: {
             className: 'content3-content',
-            children:
-              '金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。',
+            children: (
+              <>
+                <p>
+                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                </p>
+              </>
+            ),
           },
         },
       },
@@ -337,32 +352,76 @@ export const Content30DataSource = {
         xs: 24,
         children: {
           icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png',
+            className: 'content3-icon k72ymzd46z-editor_css',
+            children: 'https://s2.ax1x.com/2020/02/26/3Us4JS.png',
           },
-          textWrapper: { className: 'content3-text' },
+          textWrapper: { className: 'content3-text k72yp06215s-editor_css' },
           title: {
             className: 'content3-title',
             children: (
               <>
-                <p>业务培训资源</p>
+                <p>业务相关资源</p>
               </>
             ),
           },
           content: {
             className: 'content3-content',
-            children:
-              '一站式、全周期大数据协同工作平台，PB级数据处理、毫秒级数据分析工具。',
+            children: (
+              <>
+                <p>
+                  资源多、内容广、分类细；一时半会难以弄好，如若需要请慢慢等待。
+                </p>
+              </>
+            ),
           },
         },
       },
     ],
   },
 };
-export const Content00DataSource = {
-  wrapper: { className: 'home-page-wrapper content0-wrapper' },
-  page: { className: 'home-page content0' },
+export const Content10DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content1-wrapper k731f3cyx2n-editor_css',
+  },
+  OverPack: {
+    className: 'home-page content1 k7319ra46nj-editor_css',
+    playScale: 0.3,
+  },
+  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  img: {
+    children: 'https://s2.ax1x.com/2020/02/26/3Ul1I0.jpg',
+    className: 'k72zpezfw37-editor_css',
+  },
+  textWrapper: {
+    className: 'content1-text k72w5mmm3g-editor_css',
+    md: 14,
+    xs: 24,
+  },
+  title: {
+    className: 'content1-title k730urz8fa8-editor_css',
+    children: (
+      <>
+        <p>大神云集的“喔嘈”社区</p>
+      </>
+    ),
+  },
+  content: {
+    className: 'content1-content k74d7najss8-editor_css',
+    children: (
+      <>
+        <p>
+          “喔嘈”社区是公司对外网络问答社区，我们可以分享着彼此的知识、经验和见解，为员工以及客户源源不断地提供多种多样的信息。
+        </p>
+        <p>
+          准确地讲，社区更像一个论坛：用户围绕着某一感兴趣的话题进行相关的讨论，同时可以关注兴趣一致的人。对于概念性的解释，网络百科几乎涵盖了你所有的疑问；但是对于发散思维的整合，却是社区的一大特色。准确地讲，社区更像一个论坛：用户围绕着某一感兴趣的话题进行相关的讨同时可以关注兴趣一致的人。对于概念性的解释，网络百科几乎涵盖了你所有的疑问；但是对于发散思维的整合，却是社区的一大特色。准确地讲，社区更像一个论坛：用户围绕着某一感兴趣的话题进行相关的讨论，同时可以关注兴趣一致的人。对于概念性的解释，网络百科几乎涵盖了你所有的疑问；但是对于发散思维的整合，却是社区的一大特色。
+        </p>
+      </>
+    ),
+  },
+};
+export const Teams20DataSource = {
+  wrapper: { className: 'home-page-wrapper teams2-wrapper' },
+  page: { className: 'home-page teams2' },
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
@@ -371,106 +430,432 @@ export const Content00DataSource = {
         name: 'title',
         children: (
           <>
-            <p>资源与服务</p>
+            <p>UED/界面团队成员</p>
           </>
         ),
+        className: 'k72w80qb97a-editor_css',
       },
     ],
   },
-  childWrapper: {
-    className: 'content0-block-wrapper',
+  block: {
+    className: 'block-wrapper',
+    gutter: 72,
     children: [
       {
         name: 'block0',
-        className: 'content0-block',
+        className: 'block',
         md: 8,
         xs: 24,
-        children: {
-          className: 'content0-block-item',
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>王富贵</p>
+                </>
+              ),
             },
             {
-              name: 'title',
-              className: 'content0-block-title',
-              children: '一站式业务接入',
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
             },
-            { name: 'content', children: '支付、结算、核算接入产品效率翻四倍' },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
+            },
           ],
         },
       },
       {
         name: 'block1',
-        className: 'content0-block',
+        className: 'block',
         md: 8,
         xs: 24,
-        children: {
-          className: 'content0-block-item',
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
-            },
-            {
               name: 'title',
-              className: 'content0-block-title',
-              children: '一站式事中风险监控',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>老王</p>
+                </>
+              ),
             },
             {
               name: 'content',
-              children: '在所有需求配置环节事前风险控制和质量控制能力',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
             },
           ],
         },
       },
       {
         name: 'block2',
-        className: 'content0-block',
+        className: 'block',
         md: 8,
         xs: 24,
-        children: {
-          className: 'content0-block-item',
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
           children: [
             {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
-            },
-            {
               name: 'title',
-              className: 'content0-block-title',
-              children: '一站式数据运营',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>刘德华</p>
+                </>
+              ),
             },
             {
               name: 'content',
-              children: '沉淀产品接入效率和运营小二工作效率数据',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>王富贵</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block4',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>老王</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block5',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>刘德华</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block6',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>王富贵</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block7',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>老王</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block8',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <>
+                  <p>刘德华</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <>
+                  <p>界面 全栈工程师</p>
+                </>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <>
+                  <p>
+                    该大神职龄88年，能文能舞、上刀山下火海在所不惜，如有不服不吝赐教！
+                  </p>
+                </>
+              ),
             },
           ],
         },
       },
     ],
-  },
-};
-export const Content10DataSource = {
-  wrapper: { className: 'home-page-wrapper content1-wrapper' },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
-  img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
-  },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
-  title: { className: 'content1-title', children: '企业资源管理' },
-  content: {
-    className: 'content1-content',
-    children:
-      '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
   },
 };
 export const Footer00DataSource = {
@@ -481,8 +866,8 @@ export const Footer00DataSource = {
     children: (
       <>
         <span>
-          ©2018 <a href="https://motion.ant.design">Ant Motion</a> All Rights
-          Reserved
+          ©2020&nbsp;<a href="https://motion.ant.design">UED FiberHome</a>&nbsp;All
+          Rights Reserved
         </span>
       </>
     ),
