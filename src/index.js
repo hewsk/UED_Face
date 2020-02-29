@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './home';
 import * as serviceWorker from './serviceWorker';
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
 
